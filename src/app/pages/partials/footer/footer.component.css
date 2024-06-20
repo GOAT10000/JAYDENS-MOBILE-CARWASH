@@ -1,0 +1,35 @@
+.footerContainer{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #102C57;
+    color: #fff;
+}
+.rowOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowTwo{
+    display: flex;
+    margin: 0 auto;
+}
+.rowTwo h1{
+    margin: 15px;
+}
+.rowThree{
+    margin: 0 auto;
+}
+
+.logo-icon{
+    width: 2.5%;
+    border-radius: 50px;
+    margin-right: 1vh;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}

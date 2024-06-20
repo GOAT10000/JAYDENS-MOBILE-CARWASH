@@ -1,0 +1,134 @@
+.container{
+    width: 100%;
+    height: fit-content;
+}
+.hero{
+    background-color: #102C57;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBox{
+    width: 40%;
+    height: 50vh;
+    color: #fff;
+    font-size: 24px;
+    background-color: #006989;
+    padding: 50px;
+}
+.ImgBox{
+    width: 40%;
+    height: 50vh;   
+}
+.ImgBox img{
+    width: 100%;
+    height: 50vh;   
+}
+.Register-Account{
+    background-color: #538392;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.Learn-More{
+    font-size: 24px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* =========================Section Two===================== */
+
+.sectionTwo{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bracket{
+    width: 25%;
+    border: 1px solid;
+    height: 35vh;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.bracketOne{
+    width: 25%;
+    height: 35vh;
+}
+.Box2{
+    width: 100%;
+    height: 17.5vh;
+    border: 1px solid red;
+    background-color: #F1F1F1;
+}
+.Box3{
+    width: 100%;
+    height: 17.5vh;
+    border: 1px solid blue;
+    background-color: #F1F1F1;
+}
+
+/* Section Three */
+.sectionThree{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+}
+.mission{
+    width: 70%;
+    font-size: 28px;
+    padding: 40px;
+    border: 1px solid;
+    text-align: center;
+}
+
+/* ====================sectionFour================= */
+.sectionFour{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardbox{
+    width: 20%;
+    height: 50vh;
+    border: 1px solid blueviolet;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic{
+    width: 100%;
+    height: 25vh;
+
+}
+.pic img{
+    width: 100%;
+    height: 25vh;
+    border: 1px solid red;
+}
+.information{
+    padding: 20px;
+}
+.cardFoot{
+    display: flex;
+}
