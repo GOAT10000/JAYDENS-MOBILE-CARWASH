@@ -6,17 +6,28 @@
 .montageBox{
     width: 100%;
     height: 80vh;
-    border: 1px solid;
+    /* border: 1px solid yellow; */
+    background-color: #0C0C0C;
+}
+.montageBox video{
+    width: 100%;
+    height: 79.9vh;
 }
 
-
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: #222831;
+    color: #fff;
+}
 
 
 .services{
     width: 100%;
     height: 120vh;
-    border: 1px solid white;
-    background-color: #5A639C;
+    /* border: 1px solid white; */
+    /* background-color: #5A639C; */
+    background-color: #35374B;
     display: flex;
     /* justify-content: space-evenly; */
     flex-wrap: wrap;
@@ -31,9 +42,17 @@
     margin: 1vh;
     padding: 1vh;
     text-align: center;
+    color: #fff;
 }
-.service-Details{
-    
+
+.service-Details:hover{
+    width: 25.5%;
+    height: 51vh;
+    border: 5px solid #fff;
+}
+
+.service-Details span{
+    font-size: 18px;
 }
 .imgIcon{
     width: 100%;
@@ -44,4 +63,24 @@
 .imgIcon img{
     width: 60%;
     height: 25vh;
+    border-radius: 10px;
+}
+/* ===================================================== */
+.policy{
+    width: 100%;
+    height: 57vh;
+    /* border: 1px solid red; */
+}
+.ourPolicy{
+    width: 80%;
+    height: 52vh;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin-top: 20px;
+}
+.ourPolicy p{
+    font-size: 18px;
+    line-height: 2;
 }
